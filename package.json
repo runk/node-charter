@@ -1,0 +1,40 @@
+{
+  "name": "charter",
+  "version": "0.0.1",
+  "homepage": "https://github.com/runk/node-charter",
+  "description": "Nodejs library for Charter App",
+  "keywords": [
+    "chart",
+    "graph",
+    "visualisation",
+    "plot"
+  ],
+  "author": "Dmitry Shirokov <deadrunk@gmail.com>",
+  "dependencies": {
+    "async": ">=0.2.0"
+  },
+  "devDependencies": {
+    "mocha": ">=1.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:runk/node-charter.git"
+  },
+  "bugs": {
+    "mail": "deadrunk@gmail.com",
+    "url": "http://github.com/runk/node-charter/issues"
+  },
+  "scripts": {
+    "test": "mocha -R spec --recursive"
+  },
+  "main": "index.js",
+  "engine": {
+    "node": ">=0.8.0",
+    "npm": "1"
+  },
+  "readmeFilename": "README.md",
+  "directories": {
+    "test": "test"
+  },
+  "license" : "MIT"
+}
